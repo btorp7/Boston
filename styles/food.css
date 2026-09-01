@@ -1,0 +1,103 @@
+/* Text Formatting */
+p {
+    color: lightgray;
+    font-family: 'Staatliches', cursive;
+    
+}
+main h1 {
+    margin-top: 1em;
+    font-size: 300%;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-align: center;
+}
+
+/* Aside Tags */
+aside {
+    width: 40%;
+    float: left;
+    
+}
+aside p {
+    font-family: 'Staatliches', cursive;
+}
+
+/* Section */
+section {
+    width: 55%;
+    float: right;
+}
+
+/* Image container tags */
+.sd-img-container {
+    padding: 5vh 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.image {
+    flex-basis: 30%;
+    padding-bottom: 60px;
+}
+
+/* Text container tags */
+.info-container {
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1613px;
+}
+.info-item {
+    flex-basis: 30%;
+}
+
+/* List formatting */
+ul li {
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+/* Image formatting */
+main img {
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+/* Media queries */
+@media only screen and (max-width: 1250px) {
+    section {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    aside {
+        width: 100%;
+    }
+    section {
+        width: 80%;
+    }
+    .info-container {
+        margin-right: 20%;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    header {
+        text-align: center;
+    }
+    #logoimage {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 560px) {
+    main img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 473px) {
+    .info-container {
+        height: 2500px;
+    }
+}
